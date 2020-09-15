@@ -11,6 +11,8 @@ These API calls have been tested on the following cameras:
 * iCamera1 - a POE external camera.
 * RC8025b-ADT - A version of RC8221 with similar functionality for ADT Pulse
 
+This fork contains changes for iCamera2.
+
 Sercomm supplies cameras to a number of partners - each with a custom firmware.  It is possible your camera does not have access to all these API calls.
 
 [![Buy me a coffee](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/edent)
