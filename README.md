@@ -12,6 +12,7 @@ These API calls have been tested on the following cameras:
 * RC8025b-ADT - A version of RC8221 with similar functionality for ADT Pulse
 
 This fork contains changes for iCamera2.
+This thread has been helpful: [https://forums.sighthound.com/topic13039](https://forums.sighthound.com/topic13039)
 
 Sercomm supplies cameras to a number of partners - each with a custom firmware.  It is possible your camera does not have access to all these API calls.
 
