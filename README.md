@@ -18,6 +18,8 @@ Specifically, when setting up the iCamera2, you need to hold down the WPS reset 
 
 ![Image of successful access of iCamera2](https://github.com/RedMage1993/Sercomm-API/raw/master/media/icamera2home.PNG)
 
+OP: https://shkspr.mobi/blog/2017/11/telnet-and-root-on-the-sercomm-icamera2/
+
 Sercomm supplies cameras to a number of partners - each with a custom firmware.  It is possible your camera does not have access to all these API calls.
 
 [![Buy me a coffee](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/edent)
