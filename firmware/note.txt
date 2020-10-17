@@ -1,0 +1,17 @@
+you may upgrade firmware by using
+
+/adm/auto_upgrade.cgi?new_fw_url=[url_to_fw_bin]
+
+or POST'ing a base64 file. you can use Postman to post a binary
+
+/adm/upgrade.cgi
+
+someone mentioned V3.0.01.24 worked best for them
+
+a user with 
+iCamera2-C
+F/W version: V3.0.02.35
+
+another user with icam2-c has V3.0.02.38
+
+maybe latest is fine
