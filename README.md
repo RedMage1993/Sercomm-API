@@ -20,6 +20,27 @@ Specifically, when setting up the iCamera2, you need to hold down the WPS reset 
 
 OP: https://shkspr.mobi/blog/2017/11/telnet-and-root-on-the-sercomm-icamera2/
 
+What worked best for me was to flash the firmware to use DAXNHZ-111-300239.bin (in firmware folder). Older firmware had pros of showing the motion detect menu but cons of being able to connect to my router. I don't know, it may vary by device.
+I used the MOTION, EMAIL, and EVENT apis to configure motion detection.
+
+I was able to add triggers and then when Get'ing the EVENT details, this is the output I got. This particular firmware didn't give me an option to send an MP4 attachment.
+
+```
+[EVENT]
+event_trigger=1
+event1_entry=is=1|es=0,|et=2|acts=op1:0;op2:0;email:1;ftpu:0;im:0;httpn:0;httppost:0;wlled:0;smbc:0;sd:0;op3:0;op4:0;smbc_rec:0;sd_rec:0;poll:0|ei=30|ea=avi,5,15,1|en=Motion Detection
+event2_entry=is=1|es=0,|et=4|acts=op1:0;op2:0;email:1;ftpu:0;im:0;httpn:0;httppost:0;wlled:0;smbc:0;sd:0;op3:0;op4:0;smbc_rec:0;sd_rec:0;poll:0|ei=30|ea=avi,5,15,1|en=Audio Detection
+event3_entry=is=1|es=0,|et=10|acts=op1:0;op2:0;email:1;ftpu:0;im:0;httpn:0;httppost:0;wlled:0;smbc:0;sd:0;op3:0;op4:0;smbc_rec:0;sd_rec:0;poll:0|ei=30|ea=avi,5,15,1|en=Tamper Detection
+event4_entry=
+event5_entry=
+event6_entry=
+event7_entry=
+event8_entry=
+event9_entry=
+event10_entry=
+event_jpeg_fps=5
+```
+
 Sercomm supplies cameras to a number of partners - each with a custom firmware.  It is possible your camera does not have access to all these API calls.
 
 [![Buy me a coffee](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/edent)
